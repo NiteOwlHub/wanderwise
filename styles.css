@@ -1,68 +1,31 @@
 body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  color: white;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #111;
-  color: #fff;
-  line-height: 1.6;
-  padding: 1rem;
-}
-
-header {
-  text-align: center;
-  padding: 2rem 1rem;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.2rem;
-}
-
-.subtitle {
-  color: #ccc;
+  padding: 0;
 }
 
 nav {
-  margin-top: 1rem;
+  text-align: center;
+  margin-top: 10px;
 }
 
 nav a {
-  margin: 0 1rem;
-  color: #42a5f5;
+  margin: 0 10px;
+  color: #4ea3ff;
   text-decoration: none;
-  font-weight: bold;
 }
 
-main.posts {
-  max-width: 700px;
-  margin: 2rem auto;
-}
-
-article {
-  background: #1a1a1a;
-  border-left: 4px solid #42a5f5;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  border-radius: 6px;
-}
-
-article h2 {
-  margin-top: 0;
-  color: #fff;
-}
-
-article .meta {
-  font-size: 0.85rem;
-  color: #aaa;
-  margin-bottom: 0.5rem;
-}
-
-article a {
-  color: #42a5f5;
-  text-decoration: none;
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
 footer {
   text-align: center;
-  padding: 2rem;
-  color: #666;
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: #888;
 }
