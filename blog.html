@@ -1,87 +1,41 @@
-<!-- blog.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WanderWise Blog</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #111;
-      color: #eee;
-      margin: 0;
-      padding: 1.5rem;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.2rem;
-    }
-    .post {
-      background: #222;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-bottom: 1.5rem;
-    }
-    .post h2 {
-      font-size: 1.4rem;
-      margin-bottom: 0.5rem;
-    }
-    .post p {
-      color: #ccc;
-      font-size: 0.95rem;
-      line-height: 1.5;
-    }
-    nav {
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-    nav a {
-      color: #4ea5ff;
-      margin: 0 1rem;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    @media (max-width: 600px) {
-      body { padding: 1rem; }
-      h1 { font-size: 1.5rem; }
-      .post h2 { font-size: 1.2rem; }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+  <div class="container">
     <h1>WanderWise Blog</h1>
-    <p>Fresh stories from the road 🌏</p>
-  </header>
+    <p><em>Fresh stories from the road 🌐</em></p>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="map.html">Travel Map</a>
-    <a href="gear.html">Gear</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="travelmap.html">Travel Map</a>
+      <a href="gear.html">Gear</a>
+      <a href="contact.html">Contact</a>
+    </nav>
 
-  <div class="post">
-    <h2>🛫 First Stop: Bangkok</h2>
-    <p>From street food tours to temple hopping — here’s what I explored during my first 48 hours in the city of angels.</p>
-  </div>
+    <h2>Recent Posts</h2>
 
-  <div class="post">
-    <h2>🏝 Island Escape: Boracay in June</h2>
-    <p>White sand, motorbikes, and unexpected rain. Is Boracay worth it off-season? Here's what I learned.</p>
-  </div>
+    <div class="post">
+      <h3>✈️ First Stop: Bangkok</h3>
+      <p>From street food tours to temple hopping — here’s what I explored during my first 48 hours in the city of angels.</p>
+    </div>
 
-  <div class="post">
-    <h2>🎒 Pack Light, Travel Far</h2>
-    <p>My updated 2025 travel gear list — everything that made it into my backpack and what didn’t earn its spot.</p>
+    <div class="post">
+      <h3>🏝️ Island Escape: Boracay in June</h3>
+      <p>White sand, motorbikes, and unexpected rain. Is Boracay worth it off-season? Here’s what I learned.</p>
+    </div>
+
+    <div class="post">
+      <h3>🎒 Pack Light, Travel Far</h3>
+      <p>My updated 2025 travel gear list — everything that made it into my backpack and what didn’t earn its spot.</p>
+    </div>
+
+    <footer>© 2025 WanderWise by NiteOwlHub</footer>
   </div>
 </body>
 </html>
